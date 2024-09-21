@@ -1,145 +1,67 @@
-/* Styl dla body */
 body {
     font-family: 'Arial', sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
     color: #333;
-    background-color: #f8f9fa;
 }
 
-/* Kontener */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-/* Nagłówek */
 header {
-    background: linear-gradient(to right, #0077b6, #00aaff);
+    background-color: #0077b6;
+    color: white;
     padding: 20px 0;
+    text-align: center;
 }
 
 header h1 {
-    color: white;
-    text-align: center;
     margin: 0;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 20px 0 0;
+    margin: 10px 0;
+    text-align: center;
 }
 
 nav ul li {
-    margin: 0 20px;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
     font-size: 18px;
-    padding: 10px 20px;
-    transition: background-color 0.3s ease;
 }
 
-nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-}
-
-/* Hero Section */
-.hero {
-    background: url('hero.jpg') no-repeat center center/cover;
-    color: white;
-    padding: 100px 0;
-    text-align: center;
-}
-
-.hero h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-
-.hero .btn {
-    background-color: #00aaff;
-    color: white;
-    padding: 15px 30px;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.hero .btn:hover {
-    background-color: #0077b6;
-}
-
-/* Sekcje */
 section {
     background-color: white;
-    padding: 60px;
-    margin: 20px 0;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
     color: #0077b6;
-    font-size: 32px;
-    margin-bottom: 20px;
 }
 
-section p, section ul {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-section ul {
-    list-style: disc inside;
-}
-
-/* Stopka */
 footer {
-    background-color: #0077b6;
-    color: white;
     text-align: center;
-    padding: 20px 0;
-    position: relative;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-footer p {
-    margin: 0;
-}
-
-/* Responsywność */
 @media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
     nav ul li {
+        display: block;
         margin: 10px 0;
-    }
-
-    .hero h2 {
-        font-size: 36px;
-    }
-
-    .hero p {
-        font-size: 20px;
     }
 }
