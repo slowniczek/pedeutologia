@@ -51,7 +51,7 @@ section h2 {
 
 .patronaty {
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: white; /* Białe tło paska patronatów */
     text-align: center;
     border-top: 2px solid #ccc;
     margin-top: 30px;
