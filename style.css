@@ -49,6 +49,31 @@ section h2 {
     color: #0077b6;
 }
 
+.patronaty {
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    margin-top: 30px;
+}
+
+.honorowy-patronat, .medialne-patronaty {
+    margin-bottom: 20px;
+}
+
+.honorowy-patronat img, .patronaty-media img {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.patronaty-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
 
 @media (max-width: 768px) {
     nav ul li {
