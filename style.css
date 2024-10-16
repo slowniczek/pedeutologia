@@ -73,6 +73,21 @@ section h2 {
     gap: 20px;
 }
 
+.plakat {
+    text-align: center;
+    margin: 40px 0; /* Odstęp wokół plakatu */
+}
+
+.plakat h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plakat-img img {
+    max-width: 100%;  /* Plakat dopasowuje się do szerokości strony */
+    height: auto;     /* Zachowanie proporcji plakatu */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Dodanie cienia dla plakatu */
+}
 
 
 @media (max-width: 768px) {
