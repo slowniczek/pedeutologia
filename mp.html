@@ -34,6 +34,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            table-layout: fixed; /* Ustala jednakowy rozmiar kolumn */
             margin: 40px 0;
         }
 
@@ -43,6 +44,10 @@
             text-align: center;
         }
 
+        td:first-child {
+        width: 30%; /* Ustawia stałą szerokość dla kolumny z obrazem */
+        }
+           
         th {
             background-color: #f2f2f2;
             font-size: 18px;
